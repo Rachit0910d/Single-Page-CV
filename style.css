@@ -1,0 +1,84 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #111;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border: 1px solid #222;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+header .role {
+  color: #1a8c3a;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  line-height: 1.5;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-top: 25px;
+}
+
+section h3 {
+  color: #1a8c3a;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 5px 0 10px 20px;
+}
+
+#print-btn {
+  display: block;
+  margin: 40px auto 0;
+  padding: 10px 20px;
+  background: #1a8c3a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#print-btn:hover {
+  background: #14682b;
+}
+
+/* Print styling */
+@media print {
+  #print-btn {
+    display: none;
+  }
+  body {
+    background: white;
+  }
+}
