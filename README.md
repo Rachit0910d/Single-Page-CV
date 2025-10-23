@@ -1,5 +1,7 @@
 # Single-Page CV
 
+[![Live Preview](https://img.shields.io/badge/Live%20Preview-Click%20Here-brightgreen)](https://rachit0910d.github.io/Single-Page-CV/)
+
 This is a simple, single-page CV created using HTML, CSS, and JavaScript.
 
 ## Usage
